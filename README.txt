@@ -1,0 +1,1 @@
+Here comes alot (and still increasing) misc algorithm problems and their solutions. Most of these problems come from real interview questions.
