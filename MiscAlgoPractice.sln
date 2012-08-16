@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPartiesChoice", "TwoPart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPermutations", "AllPermutation\AllPermutations.csproj", "{1B67104D-AFB4-40FE-A77E-8A849D1CA462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsStatistics", "WordStatistics\WordsStatistics.csproj", "{1FA22906-8072-4213-9300-7DD6FE00C20E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -115,6 +117,10 @@ Global
 		{1B67104D-AFB4-40FE-A77E-8A849D1CA462}.Debug|x86.Build.0 = Debug|x86
 		{1B67104D-AFB4-40FE-A77E-8A849D1CA462}.Release|x86.ActiveCfg = Release|x86
 		{1B67104D-AFB4-40FE-A77E-8A849D1CA462}.Release|x86.Build.0 = Release|x86
+		{1FA22906-8072-4213-9300-7DD6FE00C20E}.Debug|x86.ActiveCfg = Debug|x86
+		{1FA22906-8072-4213-9300-7DD6FE00C20E}.Debug|x86.Build.0 = Debug|x86
+		{1FA22906-8072-4213-9300-7DD6FE00C20E}.Release|x86.ActiveCfg = Release|x86
+		{1FA22906-8072-4213-9300-7DD6FE00C20E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
