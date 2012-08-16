@@ -23,6 +23,36 @@ namespace Rearrange
             }
         }
 
+        static void Rearrange2(int[] a)
+        {
+            int lo = 0, hi = a.Length - 1;
+            while (lo < hi)
+            {
+                while (lo < hi && (a[lo] & 0x1) == 0)
+                    Swap(a, lo, hi--);
+                lo++;
+            }
+        }
+
+        // can this be done in space = O(1)?
+        static void RearrangeKeepSequence(int[] a)
+        {
+            int n = a.Length;
+            int i = 0, j = 0;
+            int[] even = new int[n];
+            int[] odd = new int[n];
+
+            foreach (var e in a)
+                if ((e & 0x1) == 0) even[j++] = e;
+                else odd[i++] = e;
+
+            int p = 0;
+            for (int k = i - 1; k >= 0; k--)
+                a[p++] = odd[k];
+            for (int k = j - 1; k >= 0; k--)
+                a[p++] = even[k];
+        }
+
         static void Swap<T>(T[] a, int i, int j)
         {
             T t = a[i];
@@ -49,34 +79,45 @@ namespace Rearrange
 
         static void Main(string[] args)
         {
+            Console.WriteLine("1st function");
+            Test(Rearrange);
+            Console.WriteLine("2nd function");
+            Test(Rearrange2);
+            Console.WriteLine("3rd function");
+            Test(RearrangeKeepSequence);
+            Console.ReadKey();
+        }
+
+        static void Test(Action<int[]> Act)
+        {
             int[] a = { 5, 14, 3, 7, 6, 8, 1 };
             Console.WriteLine(IsArranged(a));
 
-            Rearrange(a);
+            Act(a);
             Console.WriteLine(IsArranged(a));
 
             int[] b = { 1 };
-            Rearrange(b);
+            Act(b);
             Console.WriteLine(IsArranged(a));
 
             int[] c = { 2 };
-            Rearrange(c);
+            Act(c);
             Console.WriteLine(IsArranged(c));
 
             int[] d = { 2, 1 };
-            Rearrange(d);
+            Act(d);
             Console.WriteLine(IsArranged(d));
 
             int[] e = { 1, 2 };
-            Rearrange(e);
+            Act(e);
             Console.WriteLine(IsArranged(e));
 
             int[] f = { 1, 1, 1 };
-            Rearrange(f);
+            Act(f);
             Console.WriteLine(IsArranged(f));
 
             int[] g = { 2, 2, 2 };
-            Rearrange(g);
+            Act(g);
             Console.WriteLine(IsArranged(g));
         }
     }
