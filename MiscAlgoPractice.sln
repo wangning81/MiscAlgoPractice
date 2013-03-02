@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinSequenceWithAllCharacter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBlocks", "FindBlocks\FindBlocks\FindBlocks.csproj", "{E6F869D7-E314-453D-A104-6A1C45037A28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyAndBanana", "MonkeyAndBanana\MonkeyAndBanana.csproj", "{194A9CBA-574C-4A86-8D37-B02F05E4FA29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,16 @@ Global
 		{E6F869D7-E314-453D-A104-6A1C45037A28}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E6F869D7-E314-453D-A104-6A1C45037A28}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E6F869D7-E314-453D-A104-6A1C45037A28}.Release|x86.ActiveCfg = Release|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
