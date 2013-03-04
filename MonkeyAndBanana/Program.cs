@@ -61,10 +61,9 @@ namespace MonkeyAndBanana
 
             var m = placedBlocks.Count;
             var maxHeights = new int[m];
-            int max;
 
-            maxHeights[0] = placedBlocks[0].H;
-            max = maxHeights[0];
+            for(int i = 0 ; i < m ; i++)
+                maxHeights[i] = placedBlocks[i].H;
 
             //O(N^2)
             for (int i = 1; i < m; i++)
@@ -78,13 +77,11 @@ namespace MonkeyAndBanana
                         var height = maxHeights[j] + curBlk.H;
                         if (height > maxHeights[i])
                             maxHeights[i] = height;
-                        if (height > max)
-                            max = height;
                     }
                 }
             }
 
-            return max;
+            return maxHeights.Max();
         }
 
         static void Main(string[] args)
