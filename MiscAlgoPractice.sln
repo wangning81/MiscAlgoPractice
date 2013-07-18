@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBlocks", "FindBlocks\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyAndBanana", "MonkeyAndBanana\MonkeyAndBanana.csproj", "{194A9CBA-574C-4A86-8D37-B02F05E4FA29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku", "Sudoku\Sudoku.csproj", "{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -287,6 +289,16 @@ Global
 		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{194A9CBA-574C-4A86-8D37-B02F05E4FA29}.Release|x86.ActiveCfg = Release|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3EB0BC70-3BD2-4D1D-8AC6-D55334C22D6A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
